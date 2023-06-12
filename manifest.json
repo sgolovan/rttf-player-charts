@@ -1,0 +1,17 @@
+{
+   "content_scripts": [ {
+      "js": [  "moment.min.js", "chart.min.js", "redraw_charts.js" ],
+      "matches": [ "*://rttf.ru/players/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Enhances charts for players' RTTF rating",
+   "icons": {
+      "128": "images/icon-128.png",
+      "48": "images/icon-48.png",
+      "32": "images/icon-32.png",
+      "16": "images/icon-16.png"
+   },
+   "manifest_version": 2,
+   "name": "RTTF players' charts",
+   "version": "0.1"
+}
