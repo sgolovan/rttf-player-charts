@@ -1,2 +1,3 @@
 # rttf-player-charts
-Enhances charts for players' RTTF rating at https://rttf.ru
+
+Chrome/Chromium extension which enhances charts for players' RTTF rating at https://rttf.ru
