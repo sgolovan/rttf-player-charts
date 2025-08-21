@@ -1,5 +1,6 @@
 {
    "content_scripts": [ {
+      "world": "MAIN",
       "js": [  "moment.min.js", "chart.min.js", "redraw_charts.js" ],
       "matches": [ "*://rttf.ru/players/*" ],
       "run_at": "document_end"
@@ -11,7 +12,8 @@
       "32": "images/icon-32.png",
       "16": "images/icon-16.png"
    },
-   "manifest_version": 2,
+   "manifest_version": 3,
+   "permissions": [ "scripting" ],
    "name": "RTTF players' charts",
-   "version": "0.1"
+   "version": "0.2"
 }
